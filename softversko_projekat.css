@@ -1,0 +1,80 @@
+body {
+  margin-left: 50px;
+  margin-top: 25px;
+  font-style: normal;
+  background: linear-gradient(rgb(1, 4, 10), rgb(27, 108, 193));
+  color: white;
+}
+
+.form {
+  margin-left: 5px;
+  height: 150px;
+  width: 350px;
+  float: left;
+}
+
+#dugmad {
+  height: 40px;
+  width: 40px;
+  color: white;
+  cursor: pointer;
+  margin-top: 15px;
+  padding: 8px;
+  border-bottom-color: rgb(60, 82, 172);
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: inherit;
+  background: linear-gradient(rgb(151, 213, 232), rgb(76, 125, 221));
+}
+
+#dug {
+  height: 40px;
+  width: 100px;
+  color: white;
+  cursor: pointer;
+  margin-top: 5px;
+  padding: 8px;
+  border-bottom-color: rgb(60, 82, 172);
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: inherit;
+  background: linear-gradient(rgb(151, 213, 232), rgb(76, 125, 221));
+}
+
+canvas {
+  border-radius: 50px;
+  border: solid 5px rgb(12, 18, 22);
+}
+
+#poli {
+  padding: 5px;
+  height: 25px;
+  width: 250px;
+  font-size: 18px;
+  background: rgb(4, 17, 41);
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+#poli_ {
+  padding: 5px;
+  font-size: 18px;
+  background: rgb(4, 17, 41);
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.program {
+  margin-right: 100px;
+  float: right;
+  height: 800px;
+  width: 820px;
+  cursor: zoom-in;
+}
+
+#download {
+  height: 500px;
+  width: 250px;
+  display: block;
+  margin: 10px;
+}

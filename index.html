@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Polinomi Grafik funkcije</title>
+  <link rel="stylesheet" href="softversko_projekat.css">
+</head>
+
+<body>
+  <div class="prozor">
+    <div class="form">
+      <form class="form" action="index.html" method="post">
+       Y = <input type="text"  autocomplete="off" id="poli" oninput="Graphic.show_graph()"  name="" value="">
+        <button id="dugmad" onclick="Clear_.delete_input()">X</button>
+      </form>
+    </div>
+    <div class="program">
+      <canvas id="canvas" width="800" height="650" style="background-color:black"></canvas>
+      <script src="GraphF.js"></script>
+    </div>
+  </div>
+
+
+  <form id="download" name='form1' onsubmit="TextDownload_.download(this['name'].value, this['text'].value)">
+    <input id="poli_" type="text" name="name" value="test.txt">
+    <textarea id="poli_" rows="20" cols="40" name="text"></textarea>
+    <input id="dug" type="submit" value="Download">
+  </form>
+
+</body>
+</html>
